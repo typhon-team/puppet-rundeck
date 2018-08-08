@@ -58,7 +58,7 @@ class rundeck::install(
 
         if $::rundeck_version != $version {
           exec { 'download rundeck package':
-            command => "/usr/bin/wget ${package_source}/rundeck-${package_ensure}.deb -O /tmp/rundeck-${package_ensure}.deb",
+            command => "/usr/bin/wget ${package_source}/rundeck_${package_ensure}.deb -O /tmp/rundeck-${package_ensure}.deb",
             unless  => "/usr/bin/test -f /tmp/rundeck-${package_ensure}.deb",
           }
 
