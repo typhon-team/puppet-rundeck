@@ -1,5 +1,10 @@
 # Changelog
 
+
+
+## 2018-08-08 - Release 4.1.1
+Change url dl.bintray.com
+
 ## 2017-01-13 - Release 3.3.0
 
 This is the last release with puppet3 support!
